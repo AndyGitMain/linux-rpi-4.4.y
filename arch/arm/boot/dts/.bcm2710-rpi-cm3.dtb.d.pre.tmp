@@ -1,0 +1,8 @@
+bcm2710-rpi-cm3.o: arch/arm/boot/dts/bcm2710-rpi-cm3.dts \
+ arch/arm/boot/dts/bcm2710.dtsi arch/arm/boot/dts/bcm2708_common.dtsi \
+ arch/arm/boot/dts/include/dt-bindings/clock/bcm2835.h \
+ arch/arm/boot/dts/include/dt-bindings/clock/bcm2835-aux.h \
+ arch/arm/boot/dts/include/dt-bindings/power/raspberrypi-power.h \
+ arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
+ arch/arm/boot/dts/include/dt-bindings/pinctrl/bcm2835.h \
+ arch/arm/boot/dts/skeleton.dtsi

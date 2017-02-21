@@ -1,0 +1,1 @@
+vc4-kms-v3d-overlay.o: arch/arm/boot/dts/overlays/vc4-kms-v3d-overlay.dts

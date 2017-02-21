@@ -1,0 +1,1 @@
+raspidac3-overlay.o: arch/arm/boot/dts/overlays/raspidac3-overlay.dts

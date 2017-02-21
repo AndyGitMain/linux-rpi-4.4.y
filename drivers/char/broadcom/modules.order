@@ -1,0 +1,2 @@
+kernel/drivers/char/broadcom/bcm2835-gpiomem.ko
+kernel/drivers/char/broadcom/bcm2835_smi_dev.ko

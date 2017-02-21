@@ -1,0 +1,1 @@
+sdio-1bit-overlay.o: arch/arm/boot/dts/overlays/sdio-1bit-overlay.dts

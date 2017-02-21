@@ -1,0 +1,20 @@
+# 1 "arch/arm/boot/dts/overlays/rpi-ft5406-overlay.dts"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/overlays/rpi-ft5406-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+/ {
+ compatible = "brcm,bcm2708";
+
+ fragment@0 {
+  target-path = "/";
+  __overlay__ {
+   rpi_ft5406: rpi_ft5406 {
+    compatible = "rpi,rpi-ft5406";
+    firmware = <&firmware>;
+    status = "okay";
+   };
+  };
+ };
+};

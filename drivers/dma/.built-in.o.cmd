@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.o :=  arm-linux-gnueabihf-ld -EL    -r -o drivers/dma/built-in.o drivers/dma/dmaengine.o drivers/dma/virt-dma.o drivers/dma/of-dma.o drivers/dma/bcm2708-dmaengine.o drivers/dma/bcm2835-dma.o drivers/dma/xilinx/built-in.o 

@@ -1,0 +1,2 @@
+kernel/drivers/gpu/drm/panel/panel-simple.ko
+kernel/drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.ko

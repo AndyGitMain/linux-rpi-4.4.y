@@ -1,0 +1,16 @@
+# 1 "arch/arm/boot/dts/overlays/i2s-mmap-overlay.dts"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/overlays/i2s-mmap-overlay.dts"
+/dts-v1/;
+/plugin/;
+
+/{
+ compatible = "brcm,bcm2708";
+
+ fragment@0 {
+  target = <&i2s>;
+  __overlay__ {
+   brcm,enable-mmap;
+  };
+ };
+};

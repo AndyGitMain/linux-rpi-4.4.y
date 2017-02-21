@@ -1,0 +1,39 @@
+# 1 "arch/arm/boot/dts/overlays/pwm-overlay.dts"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/overlays/pwm-overlay.dts"
+/dts-v1/;
+/plugin/;
+# 17 "arch/arm/boot/dts/overlays/pwm-overlay.dts"
+/ {
+ fragment@0 {
+  target = <&gpio>;
+  __overlay__ {
+   pwm_pins: pwm_pins {
+    brcm,pins = <18>;
+    brcm,function = <2>;
+   };
+  };
+ };
+
+ fragment@1 {
+  target = <&pwm>;
+  __overlay__ {
+   pinctrl-names = "default";
+   pinctrl-0 = <&pwm_pins>;
+   status = "okay";
+  };
+ };
+
+ fragment@2 {
+  target = <&clk_pwm>;
+  frag2: __overlay__ {
+   clock-frequency = <100000000>;
+  };
+ };
+
+ __overrides__ {
+  pin = <&pwm_pins>,"brcm,pins:0";
+  func = <&pwm_pins>,"brcm,function:0";
+  clock = <&frag2>,"clock-frequency:0";
+ };
+};

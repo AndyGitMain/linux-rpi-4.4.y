@@ -1,0 +1,1 @@
+i2s-mmap-overlay.o: arch/arm/boot/dts/overlays/i2s-mmap-overlay.dts

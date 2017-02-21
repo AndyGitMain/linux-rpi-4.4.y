@@ -1,0 +1,8 @@
+kernel/drivers/iio/adc/mcp320x.ko
+kernel/drivers/iio/adc/mcp3422.ko
+kernel/drivers/iio/buffer/industrialio-buffer-cb.ko
+kernel/drivers/iio/buffer/kfifo_buf.ko
+kernel/drivers/iio/common/ms_sensors/ms_sensors_i2c.ko
+kernel/drivers/iio/humidity/dht11.ko
+kernel/drivers/iio/humidity/htu21.ko
+kernel/drivers/iio/industrialio.ko

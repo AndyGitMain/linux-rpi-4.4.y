@@ -1,0 +1,2 @@
+kernel/drivers/pwm/pwm-bcm2835.ko
+kernel/drivers/pwm/pwm-pca9685.ko
